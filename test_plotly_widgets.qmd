@@ -1,0 +1,21 @@
+---
+title: "test_widgets"
+format: revealjs
+---
+
+## Who.What
+
+
+```{r}
+htmltools::tags$iframe(
+  src = "widgets/widget_who_what.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "0"
+)
+```
+
+
+
+## Code
+

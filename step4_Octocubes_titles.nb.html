@@ -1780,171 +1780,122 @@ news published by the Tunisian newspaper African Manager the 14th
 November 2018.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxucWQ8LXJlYWRSRFMoXFxjb3JwdXMvcWRfbXljb3JwdXNfZ2VvX3RvcC5SRFNcXClcbmV4YW1wPC1jb3JwdXNfc3Vic2V0KHFkLGRvY2lkKHFkKSA9PSBcXEZhY3RpdmEmVFVOX2Fmcm1hbiYyMDE4LTExLTE0JjE5XFwgKVxuc3VtbWFyeShleGFtcClcbmBgYFxuYGBgIn0= -->
-<pre class="r"><code>```r
-qd&lt;-readRDS(\corpus/qd_mycorpus_geo_top.RDS\)
-examp&lt;-corpus_subset(qd,docid(qd) == \Factiva&amp;TUN_afrman&amp;2018-11-14&amp;19\ )
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucWQ8LXJlYWRSRFMoXCJjb3JwdXMvcWRfbXljb3JwdXNfZ2VvX3RvcC5SRFNcIilcbmV4YW1wPC1jb3JwdXNfc3Vic2V0KHFkLGRvY2lkKHFkKSA9PSBcIkZhY3RpdmEmVFVOX2Fmcm1hbiYyMDE4LTExLTE0JjE5XCIgKVxuc3VtbWFyeShleGFtcClcbmBgYCJ9 -->
+<pre class="r"><code>qd&lt;-readRDS(&quot;corpus/qd_mycorpus_geo_top.RDS&quot;)
+examp&lt;-corpus_subset(qd,docid(qd) == &quot;Factiva&amp;TUN_afrman&amp;2018-11-14&amp;19&quot; )
 summary(examp)</code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQ29ycHVzIGNvbnNpc3Rpbmcgb2YgMSBkb2N1bWVudCwgc2hvd2luZyAxIGRvY3VtZW50OlxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCBUeXBlcyBUb2tlbnMgU2VudGVuY2VzICAgICAgICB3aG8gICAgICAgd2hlbiBsYW5nXG4gRmFjdGl2YSZUVU5fYWZybWFuJjIwMTgtMTEtMTQmMTkuMSAgICAxNCAgICAgMTQgICAgICAgICAxIFRVTl9hZnJtYW4gMjAxOC0xMS0xNCAgIGZyXG4gICAgICAgIGRheSAgICAgICB3ZWVrICAgICAgbW9udGggICB3ZWVrZGF5IG9yZGVyIG5idCAgICAgICAgICAgICAgICAgICAgICAgICAgIGdlbyBuYmdlb1xuIDIwMTgtMTEtMTQgMjAxOC0xMS0xMiAyMDE4LTExLTAxIFdlZG5lc2RheSAgICAgMSAgMTQgU1RfQ0FOIENBX1RVTiBMQV9tYWdociBDT19BRlIgICAgIDRcbiAgc3RhdGVzIG5ic3RhdGVzICAgICAgICAgcmVnaW9ucyBuYnJlZ2lvbnMgY292aWQgbmJjb3ZpZFxuIENBTiBUVU4gICAgICAgIDIgTEFfbWFnaHIgQ09fQUZSICAgICAgICAgMiAgICAgICAgICAgICAwXG4ifQ== -->
+<pre><code>Corpus consisting of 1 document, showing 1 document:
 
-&lt;!-- rnb-output-begin eyJkYXRhIjoiQ29ycHVzIGNvbnNpc3Rpbmcgb2YgMSBkb2N1bWVudCwgc2hvd2luZyAxIGRvY3VtZW50OlxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCBUeXBlcyBUb2tlbnMgU2VudGVuY2VzICAgICAgICB3aG8gICAgICAgd2hlblxuIEZhY3RpdmEmVFVOX2Fmcm1hbiYyMDE4LTExLTE0JjE5LjEgICAgMTQgICAgIDE0ICAgICAgICAgMSBUVU5fYWZybWFuIDIwMTgtMTEtMTRcbiBsYW5nICAgICAgICBkYXkgICAgICAgd2VlayAgICAgIG1vbnRoICAgd2Vla2RheSBvcmRlciBuYnRcbiAgIGZyIDIwMTgtMTEtMTQgMjAxOC0xMS0xMiAyMDE4LTExLTAxIFdlZG5lc2RheSAgICAgMSAgMTRcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIGdlbyBuYmdlbyAgc3RhdGVzIG5ic3RhdGVzICAgICAgICAgcmVnaW9ucyBuYnJlZ2lvbnNcbiBTVF9DQU4gQ0FfVFVOIExBX21hZ2hyIENPX0FGUiAgICAgNCBDQU4gVFVOICAgICAgICAyIExBX21hZ2hyIENPX0FGUiAgICAgICAgIDJcbiBjb3ZpZCBuYmNvdmlkIG1lZGl0XG4gICAgICAgICAgICAgMCBGQUxTRVxuIn0= --&gt;
-</code></pre>
-<p>Corpus consisting of 1 document, showing 1 document:</p>
-<pre><code>                           Text Types Tokens Sentences        who       when</code></pre>
-<p>Factiva&amp;TUN_afrman&amp;2018-11-14&amp;19.1 14 14 1 TUN_afrman
-2018-11-14 lang day week month weekday order nbt fr 2018-11-14
-2018-11-12 2018-11-01 Wednesday 1 14 geo nbgeo states nbstates regions
-nbregions ST_CAN CA_TUN LA_maghr CO_AFR 4 CAN TUN 2 LA_maghr CO_AFR 2
-covid nbcovid medit 0 FALSE</p>
-<pre><code>
+                               Text Types Tokens Sentences        who       when lang
+ Factiva&amp;TUN_afrman&amp;2018-11-14&amp;19.1    14     14         1 TUN_afrman 2018-11-14   fr
+        day       week      month   weekday order nbt                           geo nbgeo
+ 2018-11-14 2018-11-12 2018-11-01 Wednesday     1  14 ST_CAN CA_TUN LA_maghr CO_AFR     4
+  states nbstates         regions nbregions covid nbcovid
+ CAN TUN        2 LA_maghr CO_AFR         2             0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua2FibGUocGFzdGUoZXhhbXApKVxuYGBgIn0= -->
+<pre class="r"><code>kable(paste(examp))</code></pre>
+<!-- rnb-source-end -->
 
+<!-- rnb-html-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImtuaXRfYXNpcyJdLCJzaXppbmdQb2xpY3kiOltdfX0= -->
 
-&lt;!-- rnb-output-end --&gt;
-
-&lt;!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxua2FibGUocGFzdGUoZXhhbXApKVxuYGBgXG5gYGAifQ== --&gt;
-
-```r
-```r
-kable(paste(examp))</code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
-
-```{=html}
-
-&lt;!-- rnb-html-begin eyJtZXRhZGF0YSI6eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjoia25pdF9hc2lzIiwic2l6aW5nUG9saWN5IjpbXX19fQ== --&gt;
-
-
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&quot;100%&quot; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th align=&quot;left&quot;&gt;x&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;L’ENA Canada délocalise à Sciences Po Tunis et lorgne
-tout le Maghreb, l’Afrique&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">L’ENA Canada délocalise à Sciences Po Tunis et lorgne
+tout le Maghreb, l’Afrique</td>
+</tr>
+</tbody>
+</table>
 
 
+<!-- rnb-html-end -->
 
-
-&lt;!-- rnb-html-end --&gt;
-</code></pre>
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxuTkFcbmBgYFxuYGBgIn0= -->
-<pre class="r"><code>```r
-NA</code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
-
-&lt;!-- rnb-chunk-end --&gt;
-
-
-&lt;!-- rnb-text-begin --&gt;
-
-
-
-Thanks to the previous operations of geographical and topical tagging, we can propose a simplified table where the text of the news has been removed and where we keep only the information of interest for the agregation procedure.
-
-
-&lt;!-- rnb-text-end --&gt;
-
-
-&lt;!-- rnb-chunk-begin --&gt;
-
-
-&lt;!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxuZXhhbXAkaWQ8LWFzLmNoYXJhY3Rlcihkb2NpZChleGFtcCkpXG5kdGV4YW1wPC1kYXRhLnRhYmxlKHRpZHkoZXhhbXApKSAlPiUgc2VsZWN0KGlkPWlkLCBvcmRlciA9IG9yZGVyLCB3aG8gPSB3aG8sIHdoZW49ZGF5LHdoYXQ9Y292aWQsIHN0YXRlcyA9IHN0YXRlcywgIHJlZ2lvbnMgPXJlZ2lvbnMpXG5rYWJsZShkdGV4YW1wKVxuYGBgXG5gYGAifQ== --&gt;
-
-```r
-```r
-examp$id&lt;-as.character(docid(examp))
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuTkFcbmBgYCJ9 -->
+<pre class="r"><code>NA</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Thanks to the previous operations of geographical and topical
+tagging, we can propose a simplified table where the text of the news
+has been removed and where we keep only the information of interest for
+the agregation procedure.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZXhhbXAkaWQ8LWFzLmNoYXJhY3Rlcihkb2NpZChleGFtcCkpXG5kdGV4YW1wPC1kYXRhLnRhYmxlKHRpZHkoZXhhbXApKSAlPiUgc2VsZWN0KGlkPWlkLCBvcmRlciA9IG9yZGVyLCB3aG8gPSB3aG8sIHdoZW49ZGF5LHdoYXQ9Y292aWQsIHN0YXRlcyA9IHN0YXRlcywgIHJlZ2lvbnMgPXJlZ2lvbnMpXG5rYWJsZShkdGV4YW1wKVxuYGBgIn0= -->
+<pre class="r"><code>examp$id&lt;-as.character(docid(examp))
 dtexamp&lt;-data.table(tidy(examp)) %&gt;% select(id=id, order = order, who = who, when=day,what=covid, states = states,  regions =regions)
 kable(dtexamp)</code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
+<!-- rnb-source-end -->
 
-```{=html}
+<!-- rnb-html-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImtuaXRfYXNpcyJdLCJzaXppbmdQb2xpY3kiOltdfX0= -->
 
-&lt;!-- rnb-html-begin eyJtZXRhZGF0YSI6eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjoia25pdF9hc2lzIiwic2l6aW5nUG9saWN5IjpbXX19fQ== --&gt;
-
-
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&quot;36%&quot; /&gt;
-&lt;col width=&quot;6%&quot; /&gt;
-&lt;col width=&quot;12%&quot; /&gt;
-&lt;col width=&quot;12%&quot; /&gt;
-&lt;col width=&quot;5%&quot; /&gt;
-&lt;col width=&quot;8%&quot; /&gt;
-&lt;col width=&quot;17%&quot; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&quot;header&quot;&gt;
-&lt;th align=&quot;left&quot;&gt;id&lt;/th&gt;
-&lt;th align=&quot;right&quot;&gt;order&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;who&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;when&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;what&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;states&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;regions&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&quot;odd&quot;&gt;
-&lt;td align=&quot;left&quot;&gt;Factiva&amp;amp;TUN_afrman&amp;amp;2018-11-14&amp;amp;19&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;1&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;TUN_afrman&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;2018-11-14&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;CAN TUN&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;LA_maghr CO_AFR&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+<colgroup>
+<col width="36%" />
+<col width="6%" />
+<col width="12%" />
+<col width="12%" />
+<col width="5%" />
+<col width="8%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">id</th>
+<th align="right">order</th>
+<th align="left">who</th>
+<th align="left">when</th>
+<th align="left">what</th>
+<th align="left">states</th>
+<th align="left">regions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Factiva&amp;TUN_afrman&amp;2018-11-14&amp;19</td>
+<td align="right">1</td>
+<td align="left">TUN_afrman</td>
+<td align="left">2018-11-14</td>
+<td align="left"></td>
+<td align="left">CAN TUN</td>
+<td align="left">LA_maghr CO_AFR</td>
+</tr>
+</tbody>
+</table>
 
 
+<!-- rnb-html-end -->
 
-
-&lt;!-- rnb-html-end --&gt;
-</code></pre>
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxuTkFcbmBgYFxuYGBgIn0= -->
-<pre class="r"><code>```r
-NA</code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
-
-&lt;!-- rnb-chunk-end --&gt;
-
-
-&lt;!-- rnb-text-begin --&gt;
-
-
- 
-
-
-
-## Octocube function
-
-The elaboration of the octocube is based on the crossing of all dimensions with one line for each singular combination. To do that, we have elaborated a specific function that combine all the dimensions but can be easily adapted if less dimensions are needed. The two geographical dimensions (states and region) are duplicated in order to prepare data for network analysis of links between states, between regions or between states and regions.
-
-
-&lt;!-- rnb-text-end --&gt;
-
-
-&lt;!-- rnb-chunk-begin --&gt;
-
-
-&lt;!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYGBgclxuXG4jJyBAdGl0bGUgY3JlYXRlIGFuIG9jdG9jdWJlXG4jJyBAbmFtZSBvY3RvY3ViZVxuIycgQGRlc2NyaXB0aW9uIGNyZWF0ZSBhIG5ldHdvcmsgb2YgaW50ZXJsaW5rZWQgc3RhdGVzIGFuZCByZWdpb25zXG4jJyBAcGFyYW0gY29ycHVzIGEgY29ycHVzIG9mIG5ld3MgaW4gcXVhbnRlZGEgZm9ybWF0XG4jJyBAcGFyYW0gb3JkZXIgYW4gb3JkZXIgb2Ygc2VudGVuY2VzIGluIHRoZSBuZXdzXG4jJyBAcGFyYW0gd2hvIHRoZSBzb3VyY2UgZGltZW5zaW9uXG4jJyBAcGFyYW0gd2hlbiB0aGUgdGltZSBkaW1lbnNpb25cbiMnIEBwYXJhbSB0aW1lc3BhbiBhZ2dyZWdhdGlvbiBvZiB0aW1lXG4jJyBAcGFyYW0gd2hhdCBhIGxpc3Qgb2YgdG9waWNzXG4jJyBAcGFyYW0gc3RhdGVzIGEgbGlzdCBvZiBzdGF0ZXNcbiMnIEBwYXJhbSByZWdpb25zICBhIGxpc3Qgb2Ygc3RhdGVzXG5cblxub2N0b2N1YmUgICA8LSBmdW5jdGlvbiggY29ycHVzID0gcWQsXG4gICAgICAgICAgICAgICAgICAgICAgICBvcmRlciA9IFxcb3JkZXJcXCxcbiAgICAgICAgICAgICAgICAgICAgICAgIHdobyA9IFxcc291cmNlXFwsXG4gICAgICAgICAgICAgICAgICAgICAgICB3aGVuID0gXFx3aGVuXFwsXG4gICAgICAgICAgICAgICAgICAgICAgICB0aW1lc3BhbiA9IFxcd2Vla1xcLFxuICAgICAgICAgICAgICAgICAgICAgICAgd2hhdCA9IFxcd2hhdFxcLFxuICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGVzID0gXFxzdGF0ZXNcXCxcbiAgICAgICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgPSBcXHJlZ2lvbnNcXClcbntcblxuXG4gIFxuIyBwcmVwYXJlIGRhdGFcblxuICBkb248LWRvY3ZhcnMoY29ycHVzKVxuICBcbiAgZGY8LWRhdGEudGFibGUoaWQgICAgID0gZG9jaWQoY29ycHVzKSxcbiAgICAgICAgICAgICAgICAgb3JkZXIgID0gZG9uW1tvcmRlcl1dLFxuICAgICAgICAgICAgICAgICB3aG8gICAgPSBkb25bW3dob11dLFxuICAgICAgICAgICAgICAgICB3aGVuICAgPSBkb25bW3doZW5dXSxcbiAgICAgICAgICAgICAgICAgd2hhdCAgID0gZG9uW1t3aGF0XV0sXG4gICAgICAgICAgICAgICAgIHN0YXRlczEgPSBkb25bW3N0YXRlc11dLFxuICAgICAgICAgICAgICAgICBzdGF0ZXMyID0gZG9uW1tzdGF0ZXNdXSxcbiAgICAgICAgICAgICAgICAgcmVnaW9uczEgPSBkb25bW3JlZ2lvbnNdXSxcbiAgICAgICAgICAgICAgICAgcmVnaW9uczIgPSBkb25bW3JlZ2lvbnNdXSlcblxuICAjIGFkanVzdCBpZFxuIGRmJGlkPC1wYXN0ZShkZiRpZCxcXF9cXCxkZiRvcmRlcixzZXA9XFxcXClcbiBcbiMgY2hhbmdlIHRpbWUgc3BhblxuICBkZiR3aGVuPC1hcy5jaGFyYWN0ZXIoY3V0KGFzLkRhdGUoZGYkd2hlbiksIHRpbWVzcGFuLCBzdGFydC5vbi5tb25kYXkgPSBUUlVFKSlcblxuIyBjaGFuZ2Ugd2hhdFxuICBkZiR3aGF0W2RmJHdoYXQ9PVxcXFxdPC1cXF9ub19cXFxuICAgZGY8LXVubmVzdF90b2tlbnMoZGYsd2hhdCx3aGF0LHRvX2xvd2VyPUYpXG4gIFxuIyB1bm5lc3Qgc3RhdGVzMVxuICBkZiRzdGF0ZXMxW2RmJHN0YXRlczE9PVxcXFxdPC1cXF9ub19cXFxuICBkZjwtdW5uZXN0X3Rva2VucyhkZixzdGF0ZXMxLHN0YXRlczEsdG9fbG93ZXI9RilcbiAgXG4jIHVubmVzdCBzdGF0ZXMyXG4gIGRmJHN0YXRlczJbZGYkc3RhdGVzMj09XFxcXF08LVxcX25vX1xcXG4gIGRmPC11bm5lc3RfdG9rZW5zKGRmLHN0YXRlczIsc3RhdGVzMix0b19sb3dlcj1GKSBcbiAgXG4gIFxuIyB1bm5lc3QgcmVnaW9uczFcbiAgZGYkcmVnaW9uczFbZGYkcmVnaW9uczE9PVxcXFxdPC1cXF9ub19cXFxuICBkZjwtdW5uZXN0X3Rva2VucyhkZixyZWdpb25zMSxyZWdpb25zMSx0b19sb3dlcj1GKVxuICBcbiMgdW5uZXN0IHJlZ2lvbnMyXG4gIGRmJHJlZ2lvbnMyW2RmJHJlZ2lvbnMyPT1cXFxcXTwtXFxfbm9fXFxcbiAgZGY8LXVubmVzdF90b2tlbnMoZGYscmVnaW9uczIscmVnaW9uczIsdG9fbG93ZXI9RikgXG4gIFxuXG4jIENvbXB1dGUgd2VpZ2h0IG9mIG5ld3NcbiAgbmV3c3dndDwtZGZbLGxpc3Qod2d0PTEvLk4pLGxpc3QoaWQpXVxuICBkZiA8LSBtZXJnZShkZixuZXdzd2d0LCBieT1cXGlkXFwpXG5cblxuIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gT2N0b2N1YmUgY3JlYXRpb24gLS0tLS0tLS0tLS0tLS0tLS0tLS0jXG4gIFxuICBcbiMgQWdncmVnYXRlXG4gIGhjPC0gZGZbLC4odGFncyA9IC5OLCBuZXdzPXN1bSh3Z3QpKSAsLihvcmRlcix3aG8sIHdoZW4sd2hhdCwgc3RhdGVzMSxzdGF0ZXMyLCByZWdpb25zMSxyZWdpb25zMildXG4gIFxuIyBDb252ZXJ0IGRhdGUgdG8gdGltZVxuICBoYyR3aGVuPC1hcy5EYXRlKGhjJHdoZW4pXG4gIFxuIyBleHBvcnRcbiAgcmV0dXJuKGhjKVxuICBcbn1cblxuYGBgXG5gYGAifQ== --&gt;
-
-```r
-```r
-
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuTkFcbmBgYCJ9 -->
+<pre class="r"><code>NA</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+<div id="octocube-function" class="section level2">
+<h2>Octocube function</h2>
+<p>The elaboration of the octocube is based on the crossing of all
+dimensions with one line for each singular combination. To do that, we
+have elaborated a specific function that combine all the dimensions but
+can be easily adapted if less dimensions are needed. The two
+geographical dimensions (states and region) are duplicated in order to
+prepare data for network analysis of links between states, between
+regions or between states and regions.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG4jJyBAdGl0bGUgY3JlYXRlIGFuIG9jdG9jdWJlXG4jJyBAbmFtZSBvY3RvY3ViZVxuIycgQGRlc2NyaXB0aW9uIGNyZWF0ZSBhIG5ldHdvcmsgb2YgaW50ZXJsaW5rZWQgc3RhdGVzIGFuZCByZWdpb25zXG4jJyBAcGFyYW0gY29ycHVzIGEgY29ycHVzIG9mIG5ld3MgaW4gcXVhbnRlZGEgZm9ybWF0XG4jJyBAcGFyYW0gb3JkZXIgYW4gb3JkZXIgb2Ygc2VudGVuY2VzIGluIHRoZSBuZXdzXG4jJyBAcGFyYW0gd2hvIHRoZSBzb3VyY2UgZGltZW5zaW9uXG4jJyBAcGFyYW0gd2hlbiB0aGUgdGltZSBkaW1lbnNpb25cbiMnIEBwYXJhbSB0aW1lc3BhbiBhZ2dyZWdhdGlvbiBvZiB0aW1lXG4jJyBAcGFyYW0gd2hhdCBhIGxpc3Qgb2YgdG9waWNzXG4jJyBAcGFyYW0gc3RhdGVzIGEgbGlzdCBvZiBzdGF0ZXNcbiMnIEBwYXJhbSByZWdpb25zICBhIGxpc3Qgb2Ygc3RhdGVzXG5cblxub2N0b2N1YmUgICA8LSBmdW5jdGlvbiggY29ycHVzID0gcWQsXG4gICAgICAgICAgICAgICAgICAgICAgICBvcmRlciA9IFwib3JkZXJcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHdobyA9IFwic291cmNlXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB3aGVuID0gXCJ3aGVuXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB0aW1lc3BhbiA9IFwid2Vla1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgd2hhdCA9IFwid2hhdFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGVzID0gXCJzdGF0ZXNcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgPSBcInJlZ2lvbnNcIilcbntcblxuXG4gIFxuIyBwcmVwYXJlIGRhdGFcblxuICBkb248LWRvY3ZhcnMoY29ycHVzKVxuICBcbiAgZGY8LWRhdGEudGFibGUoaWQgICAgID0gZG9jaWQoY29ycHVzKSxcbiAgICAgICAgICAgICAgICAgb3JkZXIgID0gZG9uW1tvcmRlcl1dLFxuICAgICAgICAgICAgICAgICB3aG8gICAgPSBkb25bW3dob11dLFxuICAgICAgICAgICAgICAgICB3aGVuICAgPSBkb25bW3doZW5dXSxcbiAgICAgICAgICAgICAgICAgd2hhdCAgID0gZG9uW1t3aGF0XV0sXG4gICAgICAgICAgICAgICAgIHN0YXRlczEgPSBkb25bW3N0YXRlc11dLFxuICAgICAgICAgICAgICAgICBzdGF0ZXMyID0gZG9uW1tzdGF0ZXNdXSxcbiAgICAgICAgICAgICAgICAgcmVnaW9uczEgPSBkb25bW3JlZ2lvbnNdXSxcbiAgICAgICAgICAgICAgICAgcmVnaW9uczIgPSBkb25bW3JlZ2lvbnNdXSlcblxuICAjIGFkanVzdCBpZFxuIGRmJGlkPC1wYXN0ZShkZiRpZCxcIl9cIixkZiRvcmRlcixzZXA9XCJcIilcbiBcbiMgY2hhbmdlIHRpbWUgc3BhblxuICBkZiR3aGVuPC1hcy5jaGFyYWN0ZXIoY3V0KGFzLkRhdGUoZGYkd2hlbiksIHRpbWVzcGFuLCBzdGFydC5vbi5tb25kYXkgPSBUUlVFKSlcblxuIyBjaGFuZ2Ugd2hhdFxuICBkZiR3aGF0W2RmJHdoYXQ9PVwiXCJdPC1cIl9ub19cIlxuICAgZGY8LXVubmVzdF90b2tlbnMoZGYsd2hhdCx3aGF0LHRvX2xvd2VyPUYpXG4gIFxuIyB1bm5lc3Qgc3RhdGVzMVxuICBkZiRzdGF0ZXMxW2RmJHN0YXRlczE9PVwiXCJdPC1cIl9ub19cIlxuICBkZjwtdW5uZXN0X3Rva2VucyhkZixzdGF0ZXMxLHN0YXRlczEsdG9fbG93ZXI9RilcbiAgXG4jIHVubmVzdCBzdGF0ZXMyXG4gIGRmJHN0YXRlczJbZGYkc3RhdGVzMj09XCJcIl08LVwiX25vX1wiXG4gIGRmPC11bm5lc3RfdG9rZW5zKGRmLHN0YXRlczIsc3RhdGVzMix0b19sb3dlcj1GKSBcbiAgXG4gIFxuIyB1bm5lc3QgcmVnaW9uczFcbiAgZGYkcmVnaW9uczFbZGYkcmVnaW9uczE9PVwiXCJdPC1cIl9ub19cIlxuICBkZjwtdW5uZXN0X3Rva2VucyhkZixyZWdpb25zMSxyZWdpb25zMSx0b19sb3dlcj1GKVxuICBcbiMgdW5uZXN0IHJlZ2lvbnMyXG4gIGRmJHJlZ2lvbnMyW2RmJHJlZ2lvbnMyPT1cIlwiXTwtXCJfbm9fXCJcbiAgZGY8LXVubmVzdF90b2tlbnMoZGYscmVnaW9uczIscmVnaW9uczIsdG9fbG93ZXI9RikgXG4gIFxuXG4jIENvbXB1dGUgd2VpZ2h0IG9mIG5ld3NcbiAgbmV3c3dndDwtZGZbLGxpc3Qod2d0PTEvLk4pLGxpc3QoaWQpXVxuICBkZiA8LSBtZXJnZShkZixuZXdzd2d0LCBieT1cImlkXCIpXG5cblxuIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gT2N0b2N1YmUgY3JlYXRpb24gLS0tLS0tLS0tLS0tLS0tLS0tLS0jXG4gIFxuICBcbiMgQWdncmVnYXRlXG4gIGhjPC0gZGZbLC4odGFncyA9IC5OLCBuZXdzPXN1bSh3Z3QpKSAsLihvcmRlcix3aG8sIHdoZW4sd2hhdCwgc3RhdGVzMSxzdGF0ZXMyLCByZWdpb25zMSxyZWdpb25zMildXG4gIFxuIyBDb252ZXJ0IGRhdGUgdG8gdGltZVxuICBoYyR3aGVuPC1hcy5EYXRlKGhjJHdoZW4pXG4gIFxuIyBleHBvcnRcbiAgcmV0dXJuKGhjKVxuICBcbn1cblxuYGBgIn0= -->
+<pre class="r"><code>
 #&#39; @title create an octocube
 #&#39; @name octocube
 #&#39; @description create a network of interlinked states and regions
@@ -1959,13 +1910,13 @@ The elaboration of the octocube is based on the crossing of all dimensions with 
 
 
 octocube   &lt;- function( corpus = qd,
-                        order = \order\,
-                        who = \source\,
-                        when = \when\,
-                        timespan = \week\,
-                        what = \what\,
-                        states = \states\,
-                        regions = \regions\)
+                        order = &quot;order&quot;,
+                        who = &quot;source&quot;,
+                        when = &quot;when&quot;,
+                        timespan = &quot;week&quot;,
+                        what = &quot;what&quot;,
+                        states = &quot;states&quot;,
+                        regions = &quot;regions&quot;)
 {
 
 
@@ -1985,36 +1936,36 @@ octocube   &lt;- function( corpus = qd,
                  regions2 = don[[regions]])
 
   # adjust id
- df$id&lt;-paste(df$id,\_\,df$order,sep=\\)
+ df$id&lt;-paste(df$id,&quot;_&quot;,df$order,sep=&quot;&quot;)
  
 # change time span
   df$when&lt;-as.character(cut(as.Date(df$when), timespan, start.on.monday = TRUE))
 
 # change what
-  df$what[df$what==\\]&lt;-\_no_\
+  df$what[df$what==&quot;&quot;]&lt;-&quot;_no_&quot;
    df&lt;-unnest_tokens(df,what,what,to_lower=F)
   
 # unnest states1
-  df$states1[df$states1==\\]&lt;-\_no_\
+  df$states1[df$states1==&quot;&quot;]&lt;-&quot;_no_&quot;
   df&lt;-unnest_tokens(df,states1,states1,to_lower=F)
   
 # unnest states2
-  df$states2[df$states2==\\]&lt;-\_no_\
+  df$states2[df$states2==&quot;&quot;]&lt;-&quot;_no_&quot;
   df&lt;-unnest_tokens(df,states2,states2,to_lower=F) 
   
   
 # unnest regions1
-  df$regions1[df$regions1==\\]&lt;-\_no_\
+  df$regions1[df$regions1==&quot;&quot;]&lt;-&quot;_no_&quot;
   df&lt;-unnest_tokens(df,regions1,regions1,to_lower=F)
   
 # unnest regions2
-  df$regions2[df$regions2==\\]&lt;-\_no_\
+  df$regions2[df$regions2==&quot;&quot;]&lt;-&quot;_no_&quot;
   df&lt;-unnest_tokens(df,regions2,regions2,to_lower=F) 
   
 
 # Compute weight of news
   newswgt&lt;-df[,list(wgt=1/.N),list(id)]
-  df &lt;- merge(df,newswgt, by=\id\)
+  df &lt;- merge(df,newswgt, by=&quot;id&quot;)
 
 
 # ------------------------ Octocube creation --------------------#
@@ -2031,29 +1982,15 @@ octocube   &lt;- function( corpus = qd,
   
 }
 </code></pre>
-<pre><code>
-&lt;!-- rnb-source-end --&gt;
-
-&lt;!-- rnb-chunk-end --&gt;
-
-
-&lt;!-- rnb-text-begin --&gt;
-
-
-
-In order to test the function, we apply it firstly on our small example of the single news published by the African Manager
-
-
-&lt;!-- rnb-text-end --&gt;
-
-
-&lt;!-- rnb-chunk-begin --&gt;
-
-
-&lt;!-- rnb-source-begin eyJkYXRhIjoiYGBgclxub2N0ZXhhbXA8LW9jdG9jdWJlKCBjb3JwdXMgICA9IGV4YW1wLFxuICAgICAgICAgICAgICAgICAgICBvcmRlciAgICA9IFwib3JkZXJcIixcbiAgICAgICAgICAgICAgICAgICAgd2hvICAgICAgPSBcIndob1wiLFxuICAgICAgICAgICAgICAgICAgICB3aGVuICAgICA9IFwid2hlblwiLFxuICAgICAgICAgICAgICAgICAgICB0aW1lc3BhbiA9IFwiZGF5XCIsXG4gICAgICAgICAgICAgICAgICAgIHdoYXQgICAgID0gXCJjb3ZpZFwiLFxuICAgICAgICAgICAgICAgICAgICBzdGF0ZXMgICA9IFwic3RhdGVzXCIsXG4gICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgICA9IFwicmVnaW9uc1wiKVxua2FibGUob2N0ZXhhbXApXG5gYGAifQ== --&gt;
-
-```r
-octexamp&lt;-octocube( corpus   = examp,
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>In order to test the function, we apply it firstly on our small
+example of the single news published by the African Manager</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxub2N0ZXhhbXA8LW9jdG9jdWJlKCBjb3JwdXMgICA9IGV4YW1wLFxuICAgICAgICAgICAgICAgICAgICBvcmRlciAgICA9IFwib3JkZXJcIixcbiAgICAgICAgICAgICAgICAgICAgd2hvICAgICAgPSBcIndob1wiLFxuICAgICAgICAgICAgICAgICAgICB3aGVuICAgICA9IFwid2hlblwiLFxuICAgICAgICAgICAgICAgICAgICB0aW1lc3BhbiA9IFwiZGF5XCIsXG4gICAgICAgICAgICAgICAgICAgIHdoYXQgICAgID0gXCJjb3ZpZFwiLFxuICAgICAgICAgICAgICAgICAgICBzdGF0ZXMgICA9IFwic3RhdGVzXCIsXG4gICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgICA9IFwicmVnaW9uc1wiKVxua2FibGUob2N0ZXhhbXApXG5gYGAifQ== -->
+<pre class="r"><code>octexamp&lt;-octocube( corpus   = examp,
                     order    = &quot;order&quot;,
                     who      = &quot;who&quot;,
                     when     = &quot;when&quot;,
@@ -2378,7 +2315,7 @@ paste(&quot;Size of resulting file = &quot;,round(file.size(&quot;octocubes/hc_m
 <p>… or at year level (0.14 Mo)</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGNfeWVhcjwtb2N0b2N1YmUoIGNvcnB1cyAgID0gcWQsXG4gICAgICAgICAgICAgICAgICAgIG9yZGVyICAgID0gXCJvcmRlclwiLFxuICAgICAgICAgICAgICAgICAgICB3aG8gICAgICA9IFwid2hvXCIsXG4gICAgICAgICAgICAgICAgICAgIHdoZW4gICAgID0gXCJ3aGVuXCIsXG4gICAgICAgICAgICAgICAgICAgIHRpbWVzcGFuID0gXCJ5ZWFyXCIsXG4gICAgICAgICAgICAgICAgICAgIHdoYXQgICAgID0gXCJjb3ZpZFwiLFxuICAgICAgICAgICAgICAgICAgICBzdGF0ZXMgICA9IFwic3RhdGVzXCIsXG4gICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgICA9IFwicmVnaW9uc1wiKVxuXG5zYXZlUkRTKGhjX3llYXIsXCJvY3RvY3ViZXMvaGNfbXljb3JwdXNfY292aWRfc3RhdGVzX3JlZ2lvbnNfeWVhci5SRFNcIilcbnBhc3RlKFwiU2l6ZSBvZiByZXN1bHRpbmcgZmlsZSA9IFwiLHJvdW5kKGZpbGUuc2l6ZShcIm9jdG9jdWJlcy9oY19teWNvcnB1c19jb3ZpZF9zdGF0ZXNfcmVnaW9uc195ZWFyLlJEU1wiKS8xMDAwMDAwLDMpLCBcIk1vXCIpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGNfeWVhcjwtb2N0b2N1YmUoIGNvcnB1cyAgID0gcWQsXG4gICAgICAgICAgICAgICAgICAgIG9yZGVyICAgID0gXCJvcmRlclwiLFxuICAgICAgICAgICAgICAgICAgICB3aG8gICAgICA9IFwid2hvXCIsXG4gICAgICAgICAgICAgICAgICAgIHdoZW4gICAgID0gXCJ3aGVuXCIsXG4gICAgICAgICAgICAgICAgICAgIHRpbWVzcGFuID0gXCJ5ZWFyXCIsXG4gICAgICAgICAgICAgICAgICAgIHdoYXQgICAgID0gXCJjb3ZpZFwiLFxuICAgICAgICAgICAgICAgICAgICBzdGF0ZXMgICA9IFwic3RhdGVzXCIsXG4gICAgICAgICAgICAgICAgICAgIHJlZ2lvbnMgICA9IFwicmVnaW9uc1wiKVxuXG5zYXZlUkRTKGhjX3llYXIsXCJvY3RvY3ViZXMvaGNfbXljb3JwdXNfY292aWRfc3RhdGVzX3JlZ2lvbnNfeWVhci5SRFNcIilcbnBhc3RlKFwiU2l6ZSBvZiByZXN1bHRpbmcgZmlsZSA9IFwiLHJvdW5kKGZpbGUuc2l6ZShcIm9jdG9jdWJlcy9oY19teWNvcnB1c19jb3ZpZF9zdGF0ZXNfcmVnaW9uc195ZWFyLlJEU1wiKS8xMDAwMDAwLDMpLCBcIk1vXCIpXG5cbmBgYCJ9 -->
 <pre class="r"><code>hc_year&lt;-octocube( corpus   = qd,
                     order    = &quot;order&quot;,
                     who      = &quot;who&quot;,
@@ -2389,11 +2326,9 @@ paste(&quot;Size of resulting file = &quot;,round(file.size(&quot;octocubes/hc_m
                     regions   = &quot;regions&quot;)
 
 saveRDS(hc_year,&quot;octocubes/hc_mycorpus_covid_states_regions_year.RDS&quot;)
-paste(&quot;Size of resulting file = &quot;,round(file.size(&quot;octocubes/hc_mycorpus_covid_states_regions_year.RDS&quot;)/1000000,3), &quot;Mo&quot;)</code></pre>
+paste(&quot;Size of resulting file = &quot;,round(file.size(&quot;octocubes/hc_mycorpus_covid_states_regions_year.RDS&quot;)/1000000,3), &quot;Mo&quot;)
+</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiU2l6ZSBvZiByZXN1bHRpbmcgZmlsZSA9ICAwLjEzNyBNb1wiXG4ifQ== -->
-<pre><code>[1] &quot;Size of resulting file =  0.137 Mo&quot;</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>If we anticipate that the figures will propose various choices of
@@ -2407,9 +2342,6 @@ the form of a list with a total size of 1.6 Mo</p>
 saveRDS(hc,&quot;octocubes/hc_mycorpus_covid_states_regions.RDS&quot;)
 paste(&quot;Size of resulting file = &quot;,round(file.size(&quot;octocubes/hc_mycorpus_covid_states_regions.RDS&quot;)/1000000,3), &quot;Mo&quot;)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIFwiU2l6ZSBvZiByZXN1bHRpbmcgZmlsZSA9ICAxLjYwNyBNb1wiXG4ifQ== -->
-<pre><code>[1] &quot;Size of resulting file =  1.607 Mo&quot;</code></pre>
-<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
